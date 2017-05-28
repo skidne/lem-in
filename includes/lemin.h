@@ -6,7 +6,7 @@
 /*   By: pgore <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/18 14:56:31 by pgore             #+#    #+#             */
-/*   Updated: 2017/05/28 19:54:57 by pgore            ###   ########.fr       */
+/*   Updated: 2017/05/28 21:32:19 by pgore            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,9 +119,9 @@ void			print_lines(t_ln *lst);
 */
 
 void			dist_init(t_lem *lem);
-void			init_ants(t_lem lem, int *arr);
 void			print_sol(t_lem *lem, int room, int *ant_arr);
-void			move_ants(t_lem lem);
+void			move_ants(t_lem *lem, int *ant_arr);
+void			reach_the_end(t_lem lem);
 
 /*
 **				free.c

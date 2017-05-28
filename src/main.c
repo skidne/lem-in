@@ -6,7 +6,7 @@
 /*   By: pgore <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/20 10:14:40 by pgore             #+#    #+#             */
-/*   Updated: 2017/05/28 17:42:20 by pgore            ###   ########.fr       */
+/*   Updated: 2017/05/28 21:03:10 by pgore            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int			main(void)
 	t_lem	lem;
 
 	lem = read_lemin();
-	move_ants(lem);
+	reach_the_end(lem);
 	free_all(&lem);
 	return (1);
 }
